@@ -39,17 +39,50 @@ console.log('string'*9);
 // console.log("arr" + " -object")
 
 
-let incr = 10,
-    decr = 10;
+// let incr = 10,
+//     decr = 10;
 
-console.log(incr++);
-console.log(decr--);
-console.log(5%2);
-console.log("2" === 2);
-let isChecked = true;
-let isClose = false;
-console.log(isChecked && isClose); //щператор "И"
-console.log(isChecked || isClose) ; // оператор "или"
+// console.log(incr++);
+// console.log(decr--);
+// console.log(5%2);
+// console.log("2" === 2);
+// let isChecked = true;
+// let isClose = false;
+// console.log(isChecked && isClose); //щператор "И"
+// console.log(isChecked || isClose) ; // оператор "или"
+
+// if(2*4==9){
+//     console.log("Верное")
+// } else {
+//     console.log("Неверно")
+// }
+let num = 50;
+
+if (num < 49){
+    console.log("Неверно")
+} else if (num >100){
+    console.log ("МНого")
+} else {
+    console.log("Вено")
+};
+let num = 50;
+switch(num){
+    case num < 49:
+        console.log("Неверно");
+        break;
+    case num > 100:
+        console.log ("МНого");
+        break;
+    case num > 80:
+        console.log ("МНого");
+        break;
+    case 50:
+        console.log("Верно");
+        break;
+    default:
+        console.log("Что то пошло не так");
+        break;
+}
 
 
 
