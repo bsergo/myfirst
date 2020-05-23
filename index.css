@@ -1,0 +1,10 @@
+    .red {
+    color: red;
+    font-size: 50px; 
+    border: red 1px solid;
+    }
+    .knopka {
+        color: rgb(8, 63, 114);
+        font-size: 50px; 
+        border: rgb(214, 19, 110) 1px solid;
+    }
